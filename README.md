@@ -29,10 +29,11 @@ NB: All content images i.e. logos, celebs, cartoons, animals etc. that depicted 
 
 * Feel free to use this project for anything you want, even republishing this app for commecial it's FREE
 * Referencing my name "Bennet Zakaria Makwakwa" is Appreciated but NOT MUST
-* Follow Me 
-	Twitter  https://twitter.com/bennet_za
-	Facebok  https://www.facebook.com/bennetm2
-	LinkedIn https://za.linkedin.com/in/bennetza
+
+# Follow Me 
+* Twitter  https://twitter.com/bennet_za
+* Facebok  https://www.facebook.com/bennetm2
+* LinkedIn https://za.linkedin.com/in/bennetza
 * Check out my Blog cyberlitesa.blogspot.com
 * My GooglePlay Page https://play.google.com/store/apps/dev?id=7141822635293990117
 * Facebok Page https://www.facebook.com/CyberLiteSA/
