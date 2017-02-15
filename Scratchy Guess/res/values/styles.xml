@@ -1,0 +1,61 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+     <style name="CutomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+     <style name="pointTxt">
+        <item name="android:textSize">@dimen/btnTextSize</item>
+        <item name="android:textColor">@color/pointTextColor</item>
+    </style>
+    
+     <style name="btnCapital">
+        <item name="android:textSize">@dimen/btnTextSize</item>
+        <item name="android:textColor">@color/btnMain</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:paddingRight">@dimen/btnPaddingR</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="btnCapitalCategory">
+        <item name="android:textSize">@dimen/btnTextCategory</item>
+        <item name="android:textColor">@color/btnMain</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="btnCapitalGame">
+        <item name="android:textSize">@dimen/btnTextGame</item>
+        <item name="android:textColor">@color/btnMain</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">@dimen/buttonHeightGame</item>
+    </style>
+    <style name="grateStyle">
+        <item name="android:textSize">@dimen/btnGrate</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffe11165</item>
+    </style>
+    <style name="noAnimTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="playNext">
+        <item name="android:textSize">@dimen/playNext</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    
+
+</resources>

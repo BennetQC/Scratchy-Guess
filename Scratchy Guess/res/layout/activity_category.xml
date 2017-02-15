@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgdope" >
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/topBarHeight"
+                android:background="#2776af"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent" >
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity=""
+                        android:layout_marginLeft="@dimen/marginLeftP"
+                        android:layout_toLeftOf="@+id/categoriesTotalPoints"
+                        android:background="@drawable/coin_icon"
+                        android:contentDescription="@string/app_name" />
+
+                    <TextView
+                        android:id="@+id/categoriesTotalPoints"
+                        style="@style/pointTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/btnPaddingV"
+                        android:layout_marginRight="@dimen/marginLeftT"
+                        android:text="@string/startPoint"
+                        android:textSize="@dimen/buttonTextSize" />
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/ic_launcher" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/btnPadding"
+                android:paddingRight="@dimen/btnPadding"
+                android:paddingTop="@dimen/listcategoryTop" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/btnPadding" >
+
+                    <Button
+                        android:id="@+id/categoryBtn_0"
+                        style="@style/btnCapitalGame"
+                        android:layout_width="fill_parent"
+                        android:layout_marginRight="@dimen/gameButtonsInsideMargin"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/standard_btn"
+                        android:onClick="onButtonClickCategory"
+                        android:tag="0"
+                        android:text="@string/celebrities" />
+
+                    <Button
+                        android:id="@+id/categoryBtn_1"
+                        style="@style/btnCapitalGame"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="@dimen/gameButtonsInsideMargin"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/standard_btn"
+                        android:onClick="onButtonClickCategory"
+                        android:tag="1"
+                        android:text="@string/cars" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/btnPadding" >
+
+                    <Button
+                        android:id="@+id/categoryBtn_2"
+                        style="@style/btnCapitalGame"
+                        android:layout_width="fill_parent"
+                        android:layout_marginRight="@dimen/gameButtonsInsideMargin"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/standard_btn"
+                        android:onClick="onButtonClickCategory"
+                        android:tag="2"
+                        android:text="@string/cities" />
+
+                    <Button
+                        android:id="@+id/categoryBtn_3"
+                        style="@style/btnCapitalGame"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="@dimen/gameButtonsInsideMargin"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/standard_btn"
+                        android:onClick="onButtonClickCategory"
+                        android:tag="3"
+                        android:text="@string/animals" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/btnPadding" >
+
+                    <Button
+                        android:id="@+id/categoryBtn_4"
+                        style="@style/btnCapitalGame"
+                        android:layout_width="fill_parent"
+                        android:layout_marginRight="@dimen/gameButtonsInsideMargin"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/standard_btn"
+                        android:onClick="onButtonClickCategory"
+                        android:tag="4"
+                        android:text="@string/cartoons" />
+
+                    <Button
+                        android:id="@+id/categoryBtn_5"
+                        style="@style/btnCapitalGame"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="@dimen/gameButtonsInsideMargin"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/standard_btn"
+                        android:onClick="onButtonClickCategory"
+                        android:tag="5"
+                        android:text="@string/brands" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_rate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="@dimen/btnPadding"
+                   android:background="@drawable/standard_btn"
+                    android:gravity="center"
+                    android:onClick="onButtonClickShare"
+                    android:text="@string/share"
+                    android:textColor="@color/btnMain"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/buttonTextSize" />
+
+                <Button
+                    android:id="@+id/btn_reset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="@dimen/btnPadding"
+                    android:background="@drawable/button_green"
+                    android:gravity="center"
+                    android:onClick="resetGame"
+                    android:text="@string/resetGame"
+                    android:textColor="@color/btnMain"
+                    android:textSize="@dimen/buttonTextSize"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/admob_publisher_id"
+                android:gravity="bottom" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

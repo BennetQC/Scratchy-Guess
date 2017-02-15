@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gameLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgdope" >
+
+    <LinearLayout
+        android:id="@+id/mainGamePanel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/topBarHeight"
+            android:background="#2776af"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/coin_icon"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:id="@+id/startPoint"
+                    style="@style/pointTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/logo"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/btnPaddingV"
+                    android:text="@string/startPoint"
+                    android:textSize="@dimen/buttonTextSize" />
+
+                <TextView
+                    android:id="@+id/allPoints"
+                    style="@style/pointTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/startPoint"
+                    android:layout_alignBottom="@+id/startPoint"
+                    android:layout_alignLeft="@+id/categoryName"
+                    android:text="@string/startPoint"
+                    android:textSize="@dimen/buttonTextSize" />
+
+                <TextView
+                    android:id="@+id/categoryName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="13.0dip"
+                    android:text=""
+                    android:textColor="#ffffffff"
+                    android:textSize="@dimen/buttonTextSizeCategory" />
+
+                <TextView
+                    android:id="@+id/levelNumber"
+                    style="@style/pointTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/startPoint"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:text="@string/startPoint"
+                    android:textSize="@dimen/buttonTextSize" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/scratchImage"
+                android:layout_width="@dimen/scratchPanelWidth"
+                android:layout_height="@dimen/scratchPanelHeight"
+                android:layout_centerInParent="true"
+                android:background="@color/scratchBoardBg"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/app_name" />
+
+            <com.winsontan520.WScratchView
+                xmlns:wsv="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/scratch_view"
+                android:layout_width="@dimen/scratchPanelWidth"
+                android:layout_height="@dimen/scratchPanelHeight"
+                android:layout_centerInParent="true"
+                wsv:antiAlias="true"
+                wsv:overlayColor="@color/scratchBoardBg"
+                wsv:revealSize="@dimen/scratchRevealSize"
+                wsv:scratchable="true" />
+
+            <ImageView
+                android:id="@+id/animationBackground"
+                android:layout_width="@dimen/scratchPanelWidth"
+                android:layout_height="@dimen/scratchPanelHeight"
+                android:layout_centerInParent="true"
+                android:background="@drawable/scratch_layer"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/gameButtonsTopMargin"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/gameButtonsOutsideMargin"
+            android:paddingRight="@dimen/gameButtonsOutsideMargin" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/btnPadding" >
+
+                <Button
+                    android:id="@+id/s0"
+                    style="@style/btnCapitalGame"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="@dimen/gameButtonsInsideMargin"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/standard_btn"
+                    android:onClick="onGameButtonClick"
+                    android:tag="0" />
+
+                <Button
+                    android:id="@+id/s1"
+                    style="@style/btnCapitalGame"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="@dimen/gameButtonsInsideMargin"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/standard_btn"
+                    android:onClick="onGameButtonClick"
+                    android:tag="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/btnPadding" >
+
+                <Button
+                    android:id="@+id/s2"
+                    style="@style/btnCapitalGame"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="@dimen/gameButtonsInsideMargin"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/standard_btn"
+                    android:onClick="onGameButtonClick"
+                    android:tag="2" />
+
+                <Button
+                    android:id="@+id/s3"
+                    style="@style/btnCapitalGame"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="@dimen/gameButtonsInsideMargin"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/standard_btn"
+                    android:onClick="onGameButtonClick"
+                    android:tag="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/btnPadding" >
+
+                <Button
+                    android:id="@+id/s4"
+                    style="@style/btnCapitalGame"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="@dimen/gameButtonsInsideMargin"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/standard_btn"
+                    android:onClick="onGameButtonClick"
+                    android:tag="4" />
+
+                <Button
+                    android:id="@+id/s5"
+                    style="@style/btnCapitalGame"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="@dimen/gameButtonsInsideMargin"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/standard_btn"
+                    android:onClick="onGameButtonClick"
+                    android:tag="5" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/nextLevelButton"
+                    style="@style/playNext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/helperButtonsPanel"
+                    android:background="@drawable/button_green"
+                    android:onClick="onNextLevelButtonClick"
+                    android:text="@string/playNext"
+                    android:visibility="invisible" />
+
+                <LinearLayout
+                    android:id="@+id/helperButtonsPanel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/btnPadding" >
+
+                    <Button
+                        android:id="@+id/hintsButton"
+                        style="@style/btnCapitalGame"
+                        android:layout_width="fill_parent"
+                        android:layout_marginRight="@dimen/gameButtonsInsideMargin"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/button_green_hints"
+                        android:onClick="onHintsButtonClick"
+                        android:text="@string/hints" />
+
+                    <Button
+                        android:id="@+id/btn_game_rating"
+                        style="@style/btnCapitalGame"
+                        android:layout_width="fill_parent"
+                        android:layout_marginLeft="@dimen/gameButtonsInsideMargin"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/button_yellow_rate_game"
+                        android:onClick="onButtonClickRate"
+                        android:text="@string/rateInfo" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/admob_publisher_id"
+                android:gravity="top" />
+        </LinearLayout>
+      </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/animationOverlayLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:onClick="disableAnimation"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/mainbox"
+            android:background="@drawable/raczka"
+            android:onClick="disableAnimation"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+</RelativeLayout>

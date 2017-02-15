@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgdope" >
+
+    <LinearLayout
+        android:id="@+id/mainView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/topBarHeight"
+                android:background="#2776af"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@android:color/transparent" >
+
+                    <ImageView
+                        android:id="@+id/scoreLogo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/coin_icon" 
+                        android:contentDescription="@string/app_name"/>
+
+                    <TextView
+                        android:id="@+id/mainScreenTotalPoints"
+                        style="@style/pointTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/btnPaddingV"
+                        android:text="@string/startPoint"
+                        android:textSize="@dimen/buttonTextSize" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/logPadding"
+                android:text="@string/app_name"
+                android:textColor="#fa1103"
+                android:textSize="27sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/root"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/btnPadding"
+                android:paddingRight="@dimen/btnPadding" >
+
+                <Button
+                    android:id="@+id/play"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:background="@drawable/button_blue"
+                    android:gravity="center"
+                    android:onClick="onButtonClickPlay"
+                    android:text="@string/play"
+                    android:textColor="@color/btnMain"
+                    android:textSize="@dimen/buttonTextSize" />
+                
+              
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/mainbox" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/btnPadding" >
+
+                        <Button
+                            android:id="@+id/btn_how"
+                            style="@style/btnCapital"
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/buttonHeight"
+                            android:layout_marginRight="@dimen/btnPaddingV"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/button_green_how"
+                            android:onClick="onButtonClickHowToPlay"
+                            android:text="@string/howInfo" />
+
+                        <Button
+                            android:id="@+id/btn_rate"
+                            style="@style/btnCapital"
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/buttonHeight"
+                            android:layout_marginLeft="@dimen/btnPaddingV"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/button_rate"
+                            android:onClick="onButtonClickRate"
+                            android:text="@string/rateInfo" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/btnPadding" >
+
+                        <Button
+                            android:id="@+id/sound"
+                            style="@style/btnCapital"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/buttonHeight"
+                            android:layout_marginTop="1.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/mute_01"
+                            android:gravity="center"
+                            android:onClick="onButtonClickSound"
+                            android:text="@string/mute" />
+                        
+                        
+                    </LinearLayout>
+                    
+                     <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/btnPadding" >
+
+                        <Button
+                            android:id="@+id/moreapp"
+                            style="@style/btnCapital"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/buttonHeight"
+                            android:layout_marginTop="1.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/button_blue"
+                            android:gravity="center"
+                            android:onClick="onButtonClickMoreApp"
+                            android:text="@string/moreapp" />
+                        
+                        
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/admob_publisher_id"
+                android:gravity="bottom" />
+        </LinearLayout> 
+    </LinearLayout>
+
+</ScrollView>

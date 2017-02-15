@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scratchy Guess</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="animals">ANIMALS</string>
+    <string name="brands">BRANDS</string>
+    <string name="cars">CARS</string>
+    <string name="cartoons">CARTOONS</string>
+    <string name="celebrities">CELEBRITIES</string>
+    <string name="cities">CITIES</string>
+
+    <string name="confirmButtonLabel">OK</string>
+    <string name="finishCategory">FINISH CATEGORY</string>
+    <string name="great1">GREAT!</string>
+    <string name="great2">you won</string>
+    <string name="hints">Hints</string>
+    <string name="hintsUsedForLevel">Hints for current level already used</string>
+    <string name="howInfo">How to Play?</string>
+    <string name="level">Level</string>
+    <string name="loading">Loading</string>
+    <string name="mute">Mute all sounds</string>
+    <string name="moreapp">More Apps From CyberLite </string>
+    <string name="noInternetConnection">No internet connection.</string>
+    <string name="okButton">OK</string>
+    <string name="play">PLAY</string>
+    <string name="playNext">PLAY NEXT</string>
+    <string name="pleaseWait">Please wait…</string>
+    <string name="rateInfo">Rate Game</string>
+    <string name="resetAllCategory">Reset all categories</string>
+    <string name="resetGame">Reset Game</string>
+    <string name="save">Save</string>
+    <string name="saveScore">Save Score</string>
+    <string name="score">Score</string>
+    <string name="sound">Play all sounds</string>
+    <string name="startPoint">0</string>
+    <string name="title_top_score">Top Score</string>
+    <string name="unknown">UNKNOWN</string>
+    <string name="ups1">Ooopsss!</string>
+    <string name="ups2">Try Again</string>
+    <string name="creditinfo">© CyberLite 2016</string>
+    <string name="share">Share Game</string>
+    <string name="credits">© CyberLite 2016, Developed By Bennet Zakaria
+        
+        NB: All content i.e logos,celebs,cartoons,animals etc that depicted in this game are protected by copyright or registered trademarks of their respective corporations. This application nor anyone related to her claim any ownership rights (or copyright) of the content used. The content i.e (logos,celebs,cartoons,animals etc) are protected by copyright or registered trademarks. The use of low-resolution images in this application for the use of content identifying qualifies as "fair use" under copyright laws in all countries .
+    </string>
+    
+     <!-- play store application link i.e more apps -->
+    <string name="play_more_apps">https://play.google.com/store/apps/dev?id=7141822635293990117</string>
+    
+     <!-- Admob Banner and Intertestial Ad Id -->
+    <string name="admob_publisher_id">ca-app-pub-9084236580374540~8948488918</string><!-- your admob banner id -->
+    <string name="admob_intertestial_id">ca-app-pub-9084236580374540/1425222110</string><!-- your admob intertestail ad id -->
+   
+	<string name="howto">Scratch your screen until you figure out what is on the picture and then click your guess. The more you scratch picture the more you score lose.Scratch it Smart,You Can not Scratch all the Screen</string>
+</resources>

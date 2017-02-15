@@ -1,0 +1,15 @@
+int attr antiAlias 0x7f010002
+int attr overlayColor 0x7f010000
+int attr revealSize 0x7f010001
+int attr scratchDrawable 0x7f010004
+int attr scratchable 0x7f010003
+int drawable ic_launcher 0x7f020000
+int string app_name 0x7f030000
+int style AppBaseTheme 0x7f040000
+int style AppTheme 0x7f040001
+int[] styleable WScratchView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004 }
+int styleable WScratchView_antiAlias 2
+int styleable WScratchView_overlayColor 0
+int styleable WScratchView_revealSize 1
+int styleable WScratchView_scratchDrawable 4
+int styleable WScratchView_scratchable 3

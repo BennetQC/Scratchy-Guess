@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bar">#ff4e5d72</color>
+    <color name="bgApp">#ff303c4c</color>
+    <color name="btnHinted">#ff2f3a49</color>
+    <color name="btnMain">#ffffffff</color>
+    <color name="gameLevelTextColor">#ffffffff</color>
+    <color name="gameLevelTextShadow">#ff106814</color>
+    <color name="gameLevelTextShadowInactive">#ffe5bb95</color>
+    <color name="gameTextColor">#ffffffff</color>
+    <color name="menuButtonTextShadow">#ffad6c34</color>
+    <color name="numberList">#ff4b85ad</color>
+    <color name="pointTextColor">#ffffd74b</color>
+    <color name="scratchBoardBg">#ff7e828b</color>
+    <color name="userNickOnScoreList">#ffffb900</color>
+  </resources>

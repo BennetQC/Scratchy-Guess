@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">14.0sp</dimen>
+    <dimen name="btnGrate">40.0dip</dimen>
+    <dimen name="btnPadding">2.899994dip</dimen>
+    <dimen name="btnPaddingH">2.0dip</dimen>
+    <dimen name="btnPaddingR">15.0dip</dimen>
+    <dimen name="btnPaddingV">2.5dip</dimen>
+    <dimen name="btnTextCategory">18.0sp</dimen>
+    <dimen name="btnTextGame">14.0sp</dimen>
+    <dimen name="btnTextSize">15.0sp</dimen>
+    <dimen name="buttonHeight">49.0dip</dimen>
+    <dimen name="buttonHeightGame">45.0dip</dimen>
+    <dimen name="buttonTextSize">20.0sp</dimen>
+    <dimen name="buttonTextSizeCategory">12.0sp</dimen>
+    <dimen name="gameButtonsInsideMargin">2.5dip</dimen>
+    <dimen name="gameButtonsOutsideMargin">5.0dip</dimen>
+    <dimen name="gameButtonsTopMargin">5.0dip</dimen>
+    <dimen name="heightBar">60.0dip</dimen>
+    <dimen name="layoutMarginTop">10.0dip</dimen>
+    <dimen name="levelButtonBottomPadding">10.0dip</dimen>
+    <dimen name="levelButtonHeight">75.0dip</dimen>
+    <dimen name="levelButtonLeftPadding">30.0dip</dimen>
+    <dimen name="levelButtonTextSize">14.0sp</dimen>
+    <dimen name="levelButtonTopMargin">21.0dip</dimen>
+    <dimen name="levelButtonTopPadding">20.0dip</dimen>
+    <dimen name="listcategoryTop">50.0dip</dimen>
+    <dimen name="logPadding">30.0dip</dimen>
+    <dimen name="logPaddingL">10.0dip</dimen>
+    <dimen name="logoHeight">35.0dip</dimen>
+    <dimen name="logoLine1TextSize">100.0sp</dimen>
+    <dimen name="logoLine2TextSize">35.0sp</dimen>
+    <dimen name="logoLine2TopMargin">-15.0dip</dimen>
+    <dimen name="logoLine3TextSize">30.0sp</dimen>
+    <dimen name="logoWidth">160.0dip</dimen>
+    <dimen name="mainMenuButtonHeight">35.0dip</dimen>
+    <dimen name="mainMenuButtonTextSize">18.0dip</dimen>
+    <dimen name="mainbox">130.0dip</dimen>
+    <dimen name="marginLeftP">60.0dip</dimen>
+    <dimen name="marginLeftT">11.0dip</dimen>
+    <item type="dimen" name="menuTextShadowDx">3.0</item>
+    <item type="dimen" name="menuTextShadowDy">3.0</item>
+    <item type="dimen" name="menuTextShadowRadius">2.0</item>
+    <dimen name="pintTxt">24.0sp</dimen>
+    <dimen name="playNext">25.0dip</dimen>
+    <dimen name="scoreListTextSize">14.0sp</dimen>
+    <item type="dimen" name="startPoint">0</item>
+    <dimen name="tileSize">35.0dip</dimen>
+    <dimen name="topBarHeight">60.0dip</dimen>
+    <dimen name="topBarTextSize">60.0sp</dimen>
+    <dimen name="widthBtn">100.0dip</dimen>
+</resources>

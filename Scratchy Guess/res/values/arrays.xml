@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>@string/celebrities</item>
+        <item>@string/cars</item>
+        <item>@string/cities</item>
+        <item>@string/animals</item>
+        <item>@string/cartoons</item>
+        <item>@string/brands</item>
+    </string-array>
+    <string-array name="category2">
+        <item>Rome</item>
+        <item>Melbourne</item>
+        <item>Mecca</item>
+        <item>Paris</item>
+        <item>Dubai</item>
+        <item>Cairo</item>
+        <item>Los Angeles</item>
+        <item>Istanbul</item>
+        <item>Kuala Lumpur</item>
+        <item>New York</item>
+        <item>Barcelona</item>
+        <item>Amsterdam</item>
+        <item>San Francisco</item>
+        <item>Budapest</item>
+        <item>Washington D.C.</item>
+        <item>Sydney</item>
+        <item>London</item>
+        <item>Piza</item>
+        <item>Seattle</item>
+        <item>Venice</item>
+        <item>Mexico City</item>
+        <item>Berlin</item>
+        <item>Rio de Janeiro</item>
+        <item>Bangkok</item>
+        <item>Athens</item>
+        <item>Oslo</item>
+        <item>Dublin</item>
+        <item>Luxembourg</item>
+        <item>Brusselss</item>
+        <item>Monaco</item>
+    </string-array>
+    <string-array name="category3">
+        <item>Elephant</item>
+        <item>Panda</item>
+        <item>Rhino</item>
+        <item>Wolf</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Zebra</item>
+        <item>Hipopotam</item>
+        <item>Gorrila</item>
+        <item>Chimpanzee</item>
+        <item>Lampart</item>
+        <item>Giraffe</item>
+        <item>Penguin</item>
+        <item>Lemur</item>
+        <item>Deer</item>
+        <item>Coala</item>
+        <item>Spider</item>
+        <item>Crocodile</item>
+        <item>Orca</item>
+        <item>Sheep</item>
+        <item>Cow</item>
+        <item>Horse</item>
+        <item>Kangaroo</item>
+        <item>Emu</item>
+        <item>Parrot</item>
+        <item>Dalmatian</item>
+        <item>Albatross</item>
+        <item>Coyote</item>
+        <item>Fox</item>
+        <item>Gopher</item>
+    </string-array>
+    <string-array name="category4">
+        <item>Pluto</item>
+        <item>Garfield</item>
+        <item>Powerpuff Girls</item>
+        <item>Scooby Doo</item>
+        <item>Tweety</item>
+        <item>Simpsons</item>
+        <item>Hello Kitty</item>
+        <item>Johnny Bravo</item>
+        <item>Tom and Jerry</item>
+        <item>Sponge Bob</item>
+        <item>My Little pony</item>
+        <item>Dexter</item>
+        <item>Bob the builder</item>
+        <item>Pepa</item>
+        <item>Spiderman</item>
+        <item>Flinstones</item>
+        <item>Smurfs</item>
+        <item>Tom and Friends</item>
+        <item>Winnie the Pooh</item>
+        <item>Nemo</item>
+        <item>Curious George</item>
+        <item>Clifford</item>
+        <item>Elmo</item>
+        <item>Ariel</item>
+        <item>Tarzan</item>
+        <item>Batman</item>
+        <item>Woody Woodpecker</item>
+        <item>Donald Duck</item>
+        <item>Yogi Bear</item>
+        <item>Pink Panther</item>
+    </string-array>
+</resources>

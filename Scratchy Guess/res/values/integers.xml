@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <integer name="animationDuration">150</integer>
+    <integer name="levelMaxPoints">10000</integer>
+    <integer name="minimalLevelScore">100</integer>
+    <integer name="scratchAmount">5000</integer>
+    <integer name="showUnmatchedTilesDuration">800</integer>
+</resources>
